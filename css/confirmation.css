@@ -1,0 +1,35 @@
+.confirmation {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.image {
+    margin-top: 30px;
+}
+
+.image img {
+    width: 180px;
+    height: 180px;
+}
+
+.viewbtn {
+    display: inline-block;
+    padding: 10px 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    border-radius: 4px;
+    border: none;
+    background-color: #6EDD33;
+    box-shadow: 'none';
+    cursor: pointer;
+}

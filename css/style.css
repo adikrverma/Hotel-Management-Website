@@ -1,0 +1,72 @@
+.carousel {
+  height: 360px;
+  overflow: hidden;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-inner > .item {
+  height: 100%;
+}
+.carousel-inner > .item > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.rooms {
+  display: grid;
+  width: 1170px;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  row-gap: 30px;
+  column-gap: 30px;
+  grid-template-columns: auto auto auto;
+}
+.card {
+  box-sizing: border-box;
+  padding: 12px;
+  width: 360px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: rgb(21 26 48 / 4%) 0px -1px 2px,
+    rgb(21 26 48 / 4%) 0px 2px 4px 2px;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card a {
+  color: #000000;
+  text-decoration: none;
+}
+.card a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+.image {
+  box-sizing: border-box;
+  border-radius: 8px;
+  object-fit: cover;
+  width: 336px;
+  height: 189px;
+  overflow: hidden;
+}
+.image img {
+  width: 336px;
+  height: 189px;
+}
+.roomText {
+  padding-top: 12px;
+  padding-bottom: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  user-select: none;
+}
+.roomDescription {
+  font-size: 14px;
+  user-select: none;
+}
